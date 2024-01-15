@@ -8,9 +8,9 @@ app.get('/', (req, res) => {
 })
 app.get('/data', (req, res) => {
     res.json({
-        name: 'NDD',
-        age: 20,
-        address: 'CLD-ST',
+        name: 'Nguyễn Đình Đình',
+        age: 23,
+        address: 'Cù Lao Dung - Sóc Trăng',
         PORT: process.env.PORT,
         HOST: process.env.HOST
     })
