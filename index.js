@@ -6,7 +6,7 @@ require('dotenv').config()
 app.get('/', (req, res) => {
     res.send('Hello World!')
 })
-app.get('/data', (req, res) => {
+app.get('/api/data', (req, res) => {
     res.json({
         name: 'Nguyễn Đình Đình',
         age: 23,
