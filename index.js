@@ -16,6 +16,17 @@ app.get('/api/data', (req, res) => {
     })
 })
 
+app.get('/api/data/user', (req, res) => {
+    res.json({
+        name: 'hjjgdfsgfsjfgsdjfsds',
+        age: 221213,
+        address: 'sdfsrtet4g54fg5dfg5dgd',
+        hdjs: 'shjdhjsdsds',
+        PORT: process.env.PORT,
+        HOST: process.env.HOST
+    })
+})
+
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })

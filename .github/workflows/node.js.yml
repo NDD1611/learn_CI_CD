@@ -28,4 +28,4 @@ jobs:
       - run: touch .env
       - run: echo PORT=$PORT >> .env
       - run: echo HOST=$HOST >> .env
-      - run: pm2 restart index
+      - run: sudo pm2 restart index
